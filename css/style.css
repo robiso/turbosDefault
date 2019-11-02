@@ -1,0 +1,132 @@
+html {
+	min-height: 100%;
+	position: relative;
+	box-shadow: 0 0 100px rgba(0, 0, 0, 0.27) inset;
+}
+
+body {
+	color: #fff;
+	background: #000000 url("bg.jpg") no-repeat left top fixed;
+	background-size: cover !important;
+	margin-bottom: 60px;
+	font-family: "Lucida Sans Unicode", Verdana;
+}
+
+#logo {
+	display: inline-block;
+	width: 55px;
+	height: 55px;
+	border-radius: 73px;
+	font-size: 25px;
+	color: #fff;
+	line-height: 73px;
+	vertical-align: middle;
+	text-align: center;
+	background: url("icons-graphic-design.png");
+	margin: 0 0 0 20px;
+	font-weight: bold;
+	padding: 0;
+}
+
+a, a:hover {
+	text-decoration: none;
+	border-bottom: 0px dotted #fff;
+	color: #fff;
+}
+
+
+.whiteFont {color: #fff;}
+.grayFont {color: #fff;}
+.padding20 {padding: 20px;}
+.padding40 {padding: 40px;}
+
+.blueBackground {background: rgba(178,178,178,0.2); color: #fff;}
+
+.navbar-default .navbar-toggle {border-color: #fff;}
+
+.navbar li {
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+.navbar, .navbar-collapse {
+	border: 0;
+	background: none;
+}
+
+
+ul.nav.navbar-nav.navbar-right li a:hover, ul.nav.navbar-nav.navbar-right li.active a {
+	color: #fff;
+	background: none;
+	border-bottom: 1px solid #fff;
+}
+
+.b-top {z-index:2600;position:fixed;left:0;bottom:90px;width:34%;margin-left:50%;opacity: 0.5;filter:alpha(opacity=50);}
+.b-top:hover {opacity:1;filter:alpha(opacity=100);cursor:pointer;}
+.b-top-but {z-index:2600;position:absolute;display:block;left:56px;bottom:0;margin:0 0 0 100%;padding:32px 12px 4px;
+color:white;background:#D8D5C2 url("up.png") no-repeat 50% 11px;border-radius:7px;}
+
+
+.fa {
+  padding: 7px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 0px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-vk {
+  background: #125688;
+  color: white;
+}
+
+.QOverlay {
+background-color: #000000;
+z-index: 9999;
+opacity: 0.8;
+}
+.QLoader {
+text-align: center;
+opacity: 0.8;
+background-color: #888;
+height: 30px;
+color:#fff;
+}
+
+footer {
+	bottom: 0;
+	width: 100%;
+	font-size: 13px;
+	position: absolute;
+}
