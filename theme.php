@@ -78,17 +78,13 @@
 		
 		<div id="scroller" class="b-top" style="display: none;"><span class="b-top-but"><p style="color:#000">Top</p></span></div>
 
-		<script type="text/javascript" src="<?= $Wcms->asset('js/queryLoader.js')?>"></script>
 		<script type="text/javascript">
 			$(document).ready(function(){
 				$(window).scroll(function () {if ($(this).scrollTop() > 0) {$('#scroller').fadeIn();} else {$('#scroller').fadeOut();}});
 				$('#scroller').click(function () {$('body,html').animate({scrollTop: 0}, 400); return false;});
 			});
 		</script>
-		<script>
-			QueryLoader.selectorPreload = "body";
-			QueryLoader.init();
-		</script>
+
 
 		<div style="position: fixed; top: 0px; left: 0px; width: 1423px; height: 649px; display: none;" class="QOverlay">
 			<div style="overflow: hidden; position: relative; top: 0px; width: 100%; display: block; height: 500px;" class="QLoader"></div>
