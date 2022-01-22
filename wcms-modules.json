@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "themes": {
+        "turbosDefault": {
+            "name": "TurbosDefault",
+            "repo": "https://github.com/robiso/turbosDefault/tree/master",
+            "zip": "https://github.com/robiso/turbosDefault/archive/master.zip",
+            "summary": "Turbo's theme - includes animatons.",
+            "version": "3.2.0",
+            "image": "https://raw.githubusercontent.com/robiso/turbosDefault/master/preview.jpg"
+        }
+    }
+}
